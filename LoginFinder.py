@@ -1,7 +1,7 @@
 import requests
 
 try:
-    url1 = 'https://www.gmail.com'
+    url1 = 'https://example.com' #Enter the website you want to scan for login page
     r = requests.get(url1)
     Responsecode = r.status_code
     if Responsecode == 200:
